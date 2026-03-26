@@ -24,4 +24,70 @@ public class Book {
     private String subject;
     private String title;
 
+    public Book(String author, LocalDate dueDate, String isbn, int pageCount, String subject, String title) {
+        this.author = author;
+        this.dueDate = dueDate;
+        this.isbn = isbn;
+        this.pageCount = pageCount;
+        this.subject = subject;
+        this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public LocalDate getDueDate() {
+        return dueDate;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public int getPageCount() {
+        return pageCount;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int hashCode() {
+        return 0; // placeholder for now
+    }
+
+    public void setAuthor (String author) {
+        this.author = author;
+    }
+
+    public void setDueDate (LocalDate dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public void setISBN (String isbn) {
+        this.isbn = isbn;
+    }
+
+    public void setPageCount (int pageCount) {
+        this.pageCount = pageCount;
+    }
+
+    public void setSubject (String subject) {
+        this.subject = subject;
+    }
+
+    public void setTitle (String title) {
+        this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "idk";
+    }
+
 }
