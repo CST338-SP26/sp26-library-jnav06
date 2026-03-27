@@ -8,6 +8,8 @@ import java.util.Objects;
  * @author Josue Nava - Jimenez
  * Reader.java is a cute little file that reads card numbers, names, phone numberts, and checked-out books and stuff
  * (please read animal farm by george orwell it is such a beautiful book)
+ *
+ * format should be something like: [Name] (#[Card Number]) has checked out [list of books and yummy stuff]
  */
 
 public class Reader {
