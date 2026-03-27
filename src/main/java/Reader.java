@@ -108,7 +108,7 @@ public class Reader {
 
     @Override
     public String toString() {
-        return name + " (#" + cardNumber + ") has checked out " + getBooks();
+        return name + " (#" + cardNumber + ") has checked out " + books;
     }
 
 }
